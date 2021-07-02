@@ -795,7 +795,7 @@ function initJQ() {
 
                 //Load timber
                 if ($(window).width() >= 1000) {
-                    $('.timber-block.block-start .row .col-md-5').html(' <img src="img/timber/timber.png"/>');
+                    $('.timber-block.block-start .row .col-md-5').html(' <img src="/img/timber/timber.png"/>');
                 } else {
                     $('#step-screen-1 .col-timber-preview').html('<img class="timber-img-mobile" src="img/timber/start-step-1-mobile.png"/>');
                     $('#step-screen-2 .col-timber-preview').html('<img class="timber-img-mobile" src="img/timber/step-2-mobile.png"/>');
